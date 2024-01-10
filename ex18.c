@@ -7,10 +7,8 @@ void ft_fattoriale (int nb)
     if(nb <0) {
         printf("errore");
     }
-if (nb==0||nb==1) {
-   printf("1");
-}
-while (nb>1 && nb>0) {
+
+    while (nb>1 && nb>0) {
     res*=nb;
     nb--;
 }
